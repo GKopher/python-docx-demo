@@ -1,0 +1,69 @@
+1. 检查python环境
+python -V
+注意V是大写,如果是3.x跳到第三步
+2.如果显示2.x（如2.7），访问https://www.python.org/downloads/
+下载最新的python包进行安装,安装教程
+https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624
+3.更改软件下载源
+在终端运行
+pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+4.安装依赖库
+pip3 install python-docx
+Pip3 install Pillow
+5.在create_doc.py当前目录使用终端运行
+python3 create_doc.py
+
+关于修改配置：
+现在所有参数配置都集成在配置文件subjectconf.json中
+下面是详细说明：
+{
+    "doc_num": 2,     -- 此参数代表运行一次程序生成的文档数
+    "subject_detail": {
+        "1": {      -- 此组为一个题目
+            "TEXT": "音的分组",   -- 题目文字
+            "UNIT_W": 500,  -- 单个小图片的像素宽
+            "UNIT_H": 500,  -- 单个小图片的像素高
+            "IMG_W": 7,     -- 合成后整个图片宽 单位英寸
+            "IMG_H":1,      -- 合成后整个图片高 单位英寸
+            "ROWS": 1,      -- 此题生成几行图片
+            "PICKNUM": 7    -- 每行由几个小图片拼接
+        }
+    }
+}
+
+如果增加题目，则增加下面的对象，复制粘贴即可
+"2": {
+    "TEXT":"判断自然变化全音半音",
+    "UNIT_W": 500,
+    "UNIT_H": 500,
+    "IMG_W": 7,
+    "IMG_H": 1,
+    "ROWS": 1,
+    "PICKNUM": 7
+}
+
+增加题目后的配置参考
+{
+    "doc_num": 2,
+    "subject_detail": {
+        "1": {  
+            "TEXT": "音的分组",
+            "UNIT_W": 500,
+            "UNIT_H": 500,
+            "IMG_W": 7,
+            "IMG_H":1,
+            "ROWS": 1,
+            "PICKNUM": 7
+        },
+        "2": {
+            "TEXT":"判断自然变化全音半音",
+            "UNIT_W": 500,
+            "UNIT_H": 500,
+            "IMG_W": 7,
+            "IMG_H": 1,
+            "ROWS": 1,
+            "PICKNUM": 7
+        }
+}
+
+增加题目后，bank下的图片素材记得同步补充。bank下每个文件夹以对应题号命名。

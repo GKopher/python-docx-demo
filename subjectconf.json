@@ -1,0 +1,104 @@
+{
+    "doc_num": 2,
+    "subject_detail": {
+        "1": {  
+            "TEXT": "音的分组",
+            "UNIT_W": 500,
+            "UNIT_H": 500,
+            "IMG_W": 7,
+            "IMG_H":1,
+            "ROWS": 1,
+            "PICKNUM": 7
+        },
+        "2": {
+            "TEXT":"判断自然变化全音半音",
+            "UNIT_W": 500,
+            "UNIT_H": 500,
+            "IMG_W": 7,
+            "IMG_H": 1,
+            "ROWS": 1,
+            "PICKNUM": 7
+        },
+        "3": {
+            "TEXT": "写出下列各音所有等因",
+            "UNIT_W": 500,
+            "UNIT_H": 500,
+            "IMG_W": 7,
+            "IMG_H": 1,
+            "ROWS": 1,
+            "PICKNUM": 7
+        },
+        "4": {
+            "TEXT": "记号",
+            "UNIT_W": 500,
+            "UNIT_H": 500,
+            "IMG_W": 7,
+            "IMG_H": 1,
+            "ROWS": 1,
+            "PICKNUM": 7
+        },
+        "5": {
+            "TEXT": "用一个音符代替总时值",
+            "UNIT_W": 500,
+            "UNIT_H": 500,
+            "IMG_W": 7,
+            "IMG_H": 1,
+            "ROWS": 1,
+            "PICKNUM": 7
+        },
+        "6": {
+            "TEXT":"用一个休止符代替总时值",
+            "UNIT_W": 500,
+            "UNIT_H": 500,
+            "IMG_W": 7,
+            "IMG_H": 1,
+            "ROWS": 1,
+            "PICKNUM": 7
+        },
+        "7": {
+            "TEXT": "音程名称",
+            "UNIT_W": 500,
+            "UNIT_H": 500,
+            "IMG_W": 7,
+            "IMG_H": 1,
+            "ROWS": 1,
+            "PICKNUM": 7
+        },
+        "8": {
+            "TEXT": "和弦名称",
+            "UNIT_W": 500,
+            "UNIT_H": 500,
+            "IMG_W": 7,
+            "IMG_H": 1,
+            "ROWS": 1,
+            "PICKNUM": 7
+        },
+        "9": {
+            "TEXT":"音程构成（低音）",
+            "UNIT_W": 500,
+            "UNIT_H": 500,
+            "IMG_W": 7,
+            "IMG_H": 1,
+            "ROWS": 1,
+            "PICKNUM": 7
+        },
+        "10": {
+            "TEXT":"以下列各音为三音构成指定和弦",
+            "UNIT_W": 500,
+            "UNIT_H": 500,
+            "IMG_W": 6,
+            "IMG_H": 1,
+            "ROWS": 2,
+            "PICKNUM": 2
+        },
+        "11": {
+            "TEXT": "译谱（临时）",
+            "UNIT_W": 1000,
+            "UNIT_H": 500,
+            "IMG_W": 7,
+            "IMG_H": 1,
+            "ROWS": 2,
+            "PICKNUM": 1
+        }
+    }
+}
